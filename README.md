@@ -70,7 +70,7 @@ response = requests.get(
     params={
         "query": "1948568-REG",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -196,7 +196,7 @@ response = requests.get(
     params={
         "query": "sandisk extreme pro",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
